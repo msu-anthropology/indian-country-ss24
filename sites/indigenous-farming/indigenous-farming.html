@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us"><script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>This is Indian Country</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/leaflet.css" />
+	  <link rel="stylesheet" href="../css/BootSideMenu.css">
+
+</head>
+
+  <body>
+
+    <!-- centralized navbar -->
+    <div id="central-nav"></div>
+      <div id="detail">
+
+    <!-- Begin Page Content - do not edit anything above this line! -->
+
+        <h1>Indigenous Farming Practices</h1> <!-- Replace "Title" with your project's title -->
+          <h3>Methods and Impacts</h3> <!-- The larger your heading tags, the smaller the heading will be. Here we created a space for your subtitle using a smaller heading size -->
+            <h4><em>Maddie Ramos and Eric Carey</em></h4> <!-- Make sure you get credit for  your work! -->
+        <h3>First Section Heading</h3> <!-- It is a good idea to space out your code to make it more human readable. Creating a space for each section heading will help avoid difficult to read walls of text -->
+		    <hr> <!--this draws a line across the page, which I put under each section heading in the example-->
+          <p>Though farming practices are not one-size-fits-all across every Indigenous community, Indigenous food sovereignty is often deeply intertwined with respect for the land one gathers resources from, connection to the food that is eaten, and overall sustainability.</p>
+          <!-- Here is the figure code we will use to display images. This annotated code displays a photo of Sitting Bull from the Library of Congress-->
+            <figure style="padding-left:20px; padding-bottom: 5px; padding-top: 5px; float: right; width: 40%"> <!-- Create a figure space with this tag and adjust the size, location, and size of the space -->
+              <img src="img/sitting-bull.jpg" width="100%"> <!-- Here is where you will say what image goes into the <figure> space. Replace the image file name ("sitting-bull.jpg") with with the file name of your desired image (remember to put the image in your projects image folder).  Do not change width here: do it in the figure style above -->
+              <figcaption><a href="#" rel="citation" data-toggle="popover" data-content="Sitting Bull, photographed and published by Palmquist & Jurgens, St. Paul, Minn. c1884.">Image 1. Sitting Bull</a></figcaption> <!-- Here is where the caption for your image will show up. only replace the data-content and the normal text ("Image 1. Sitting Bull")-->
+            </figure>
+          <!-- Check your handouts and the wiki (https://github.com/msu-anthropology/indian-country/wiki) for specific help on how to work with figures/images-->
+          <p>While writing your document, you will probably have to go back and forth between editing your document, and viewing your document in a web browser. This will allow you to instantly see how the design of your web page is going. 80% of the work for this project will probably be spent on coming up with the content, and finding appropriate images for arguments. Another 10% will likely go into putting that content into your project folder and HTML file. And the last 10% will probably be sacrificed to trying to figure out why Atom isn't working, or why your HTML file isn't doing what you want it to do <a href="#" rel="citation" data-toggle="popover" data-content="Enter the citation data here, and it will appear as a pop-over!">(Francis 2022)</a>. <!-- This is how you will create a pop-over link for intext citations--></p>
+          <br><!--this creates a break, Which is great for creating space in a variety of situations. Note that this is the only way to add a line break into your HTML. Adding a blank line will not translate to more spacing. -->
+          <p> There are many useful things that you can do in HTML, and here we will provide a list of some things that may be useful for creating your site:</p>
+            <ul> <!-- This creates an "unorderd list", or basically bullet points. Use <ol> if you want an "ordered", or numbered list (and don't forget to close it!). -->
+              <li>You can also create regular links to things without pop-over content. For example, <a href="https://github.com/msu-anthropology/indian-country/wiki">this link</a> goes to the Indian Country Wiki. You may also make links open up in a new tab by adding the target attribute with the the blank value: <a href="https://github.com/msu-anthropology/indian-country/wiki" target="blank">same link, but it opens in a new tab</a></li> <!-- Just replace the href url with your desired url, and the normal text("this link") for your link -->
+              <li>You may also create <a href="#jump">links that jump to other parts of the page</a> by putting an id in the element you want to jump to (see the <u>Image Sources</u> heading below to see where to put the id), and then doing #id in the href.<!-- Each id must be unique to jump to it --></li>
+              <li>You may also format your text in an number of ways, including by: <b>bolding</b>, <i>italicizing</i>, <em>emphaszing</em>, <u>underlining</u> or by designating <strong>strong text</strong></li>
+            </ul>
+          <p> For ideas on what else is possible with HTML, you can check out <a href="https://www.w3schools.com/html/default.asp">W3Schools</a>, or ask your graduate assistant for some feedback on what you want to do with your essay.</p>
+
+	          <h3>How to Embed Video</h3>
+        <hr>
+          <p> Videos are also a good source of information, and can make your web page more interesting to look at. Your first option for sharing videos is to link out to a video hosting service like YouTube or Vimeo. But, oftentimes, you will want the video directly in your web page. You can do this by either emedding from a video service, or by putting a video file in your repository. There are advantages and disadvantages to both.</p>
+
+            <p> Embedding from a video hosting service like YouTube is convienant, and doesn't take up any space on your server or github account. Here is how to embed a YouTube video into your project file!</p>
+            <ul>
+              <li>Go to the YouTube video that you want to embed</li>
+              <li>Select Share</li>
+              <li>copy the embed code wrapped in an "iframe"(and start the video later if you wish)</li>
+              <li>Paste the web page where you want it in your web page.</li>
+            </ul>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SmI2kQy2Xh8?start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p> If you have your own mp4 video that you want to embed into your web page, without linking to it on YouTube, you can do that too. This has the advantage of not giving YouTube rights to your video, while also making sure that you video will not be taken down from the internet (because you'll refer to it in your img folder (if you were a super stickler, you could create a video folder and refer to it in there.))</p>
+            <video width="320" height="240" controls>
+              <source src="video/movie.mp4" type="video/mp4">
+              <source src="video/movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+
+        <!-- minimal comments below for if you just want to fill in your own content or copy things for editing elsewhere-->
+        <h3>Third Section Heading</h3>
+        <hr>
+          <p>Libero id faucibus nisl tincidunt. Tempus quam pellentesque nec nam aliquam sem. Suspendisse interdum consectetur libero id faucibus. Convallis convallis tellus id interdum velit laoreet id. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Lobortis elementum nibh tellus molestie nunc. Pellentesque elit eget gravida cum sociis natoque penatibus et. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Auctor elit sed vulputate mi. Quis commodo odio aenean sed adipiscing diam donec. Et netus et malesuada fames ac turpis egestas sed.<p>
+            <figure style="padding-right:20px; padding-bottom: 5px; float: left; width: 20%">
+             <img src="img/chief-joseph.jpg" width="100%">
+             <figcaption><a href="#" rel="citation" data-toggle="popover" data-content="Chief Joseph was a famous chief of the Nez Percé">Image 2. Chief Joseph</a></figcaption>
+            </figure>
+          <p>Nullam vehicula ipsum a arcu cursus vitae congue. Ut placerat orci nulla pellentesque dignissim enim. Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Quam id leo in vitae turpis massa sed elementum. Urna nunc id cursus metus aliquam eleifend mi. Nibh mauris cursus mattis molestie a iaculis at erat. Id eu nisl nunc mi ipsum faucibus vitae.<p>
+          <p> Senectus et netus et malesuada fames ac turpis. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Purus sit amet luctus venenatis. Sed elementum tempus egestas sed sed risus pretium quam. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Purus ut faucibus pulvinar elementum. Tempor commodo ullamcorper a lacus. Tortor aliquam nulla facilisi cras fermentum odio. Adipiscing commodo elit at imperdiet. Sapien faucibus et molestie ac. Posuere morbi leo urna molestie. </p>
+          <br>
+
+        <h3 id="jump">Image Sources</h3> <!-- The following section is formatted from a previous student's project. Borrowing and editing code for your own purposes is completely legitamite!-->
+        <hr>
+          <p><strong>Image 1:</strong> <em>Sitting Bull</em>. c1884. photographed and published by Palmquist & Jurgens, St. Paul, Minn. Obtained on 2/17/22 from <a href="https://www.loc.gov/item/94500412/">https://www.loc.gov/item/94500412/</a></p>
+          <p><strong>Image 2:</strong> <em>Chief Joseph, Nez Percé</em>. 1900. Photographed by Gill, De Lancey. Obtained on 2/17/22 from <a href="https://www.loc.gov/item/2002719520/">https://www.loc.gov/item/2002719520/</a>.</p>
+
+	</div>
+
+  <!-- End Page Content - do not edit anything below this comment! -->
+
+    <!-- centralized footer -->
+    <div id="central-foot"></div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/BootSideMenu.js"></script>
+    <script src="../js/leaflet.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("a[rel=citation]").popover({
+				placement : 'top'
+			}).click(function (p) {
+				p.preventDefault();
+				var $self = $(this);
+				setTimeout(function () {
+					$self.popover('hide');
+				}, 4000);
+			});
+		});
+	</script>
+
+    <!-- Calls centralized navbar -->
+    <script src="../../centralize-nav-foot/sites-nav-foot.js"></script>
+
+	</body></html>
